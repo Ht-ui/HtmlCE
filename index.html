@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="ZH-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>前端H5</title>
+	<link rel="stylesheet" href="css/h5.css">
+</head>
+<body bgcolor="#000000" text="#C0C0C0">
+	<x-con>
+
+		<!-- 目录 -->
+		<ul>
+			<h1>前端H5</h1>
+			<li>
+				<h2><a href="#c1">Chapter 01 常用标签</a></h2>
+			</li>
+			<li>
+				<h2><a href="#c2">Chapter 02 Css滤镜</a></h2>
+			</li>
+		</ul>
+
+		<!-- Chapter 01 -->
+		<ul>
+			<div class="Chtitle"  id="c1">
+				<h2>Chapter 01 常用标签</h2>
+			</div>
+			<li>
+				<h3>1-1 标题标签</h3>
+				<p>h1~h6</p>
+				<div class="chcon">
+					<!-- h${h$标签}*6 -->
+					<h1 style="color: #C0C0C0;">h1标签</h1>
+					<h2 style="color: #C0C0C0;">h2标签</h2>
+					<h3 style="color: #C0C0C0;">h3标签</h3>
+					<h4 style="color: #C0C0C0;">h4标签</h4>
+					<h5 style="color: #C0C0C0;">h5标签</h5>
+					<h6 style="color: #C0C0C0;">h6标签</h6>
+				</div>
+
+				<h3>1-2 段落标签</h3>
+				<p>
+					分段：P<br>
+					换行：br
+				</p>
+				<div class="chcon">
+					<p>
+						<p>何者にも予想できない形で訪れた、「万能なる科学の時代」の終焉。</p>
+
+						<p>七体の異質な存在の出現。</p>
+
+						<p>降臨した七存在は、圧倒的な破壊能力により、瞬く間に世界を灰燼と化した。</p>
+
+						<p>全人口の99%以上が失われ、遺された一握りの人類達は、長い冬の時代を生きることとなる。</p>
+
+						<p>偉大な先人達が興した万能の業＜科学＞は、もはや、過去のものでしかない。</p>
+
+						<p>■
+
+						七存在を避け、世界の片隅で生きることを余儀なくされた人類。</p>
+
+						<p>しかし、その中から、新しい存在「異能者」が発生する。</p>
+
+						<p>それは、科学を捨て、新たな存在に接したことにより顕在化した、「人の新しい形態」だった。</p>
+
+						<p>彼らが異能の者たる証「魔導」は、人類にとって希望の光になると思われた。</p>
+
+						<p>■
+
+						力を得た人類は、僅かずつではあるが、七存在に対抗するようになっていく。</p>
+
+						<p>しかし、同時に、人類自身の中からも、人に敵対する存在が現れるようになる。</p>
+
+						<p>魔導の力に飲まれ、人の姿、理性を維持出来なくなった彼らは「魔族」と呼ばれた。</p>
+
+						<p>人は、七存在と魔族の双方から、自身の世界を勝ち取らなくてはならなかった。</p>
+
+						<p>そんな折、あらゆるものを無に還す「死蝕」の力を持つ魔族が出現する。</p>
+
+						<p>異能者達による決死の戦いで彼の者は滅び去るが、それまでに広大な土地が不毛の大地へと変わった。</p>
+
+						<p>これを契機に、異能者達は対魔族・対七存在のための組織を興す。</p>
+
+						<p>後に、それは治安維持組織「法院」となる。</p>
+
+						<p>■
+
+						法院は勢力を拡大し、全世界的な治安維持組織へと発展した。</p>
+
+						<p>以来、人は世界の覇権を取り戻すべく、一進一退を続けている。</p>
+
+						<p>同時に、「死蝕」を駆る魔族も、姿を変え、形を変えながら、数度に渡って現れている。</p>
+
+						<p>彼の者との戦いは「封魔戦役」と呼ばれ、その都度、多大な犠牲が払われた。</p>
+
+						<p>そのため、法院によって「死蝕」は禁忌の力とされている。</p>
+
+						<p>■
+
+						第六次を数えた封魔戦役が終結した。</p>
+
+						<p>そして、十年という束の間の、静寂の歳月が流れ―――</p>
+
+
+
+
+						<p>赤。</p>
+
+						<p>一面の赤。</p>
+
+						<p>目眩くほどに染め上げられたこの世界で。</p>
+
+						<p>――― 咎人は、邂逅する。</p>
+						<br> <strong>Next</strong>
+					</p>
+				</div>
+
+				<h3>1-3 列表标签</h3>
+				<p>
+					无序列表：ul <br>
+					有序列表：ol
+				</p>
+				<div class="chcon">
+					<strong>Chars Select：</strong>
+					<ul>
+					  <li>Raven</li>
+					  <li>Silvis Laws</li>
+					  <li>Kakeru</li>
+					</ul>
+					<p></p>
+					<strong>Chars Select：</strong>
+					<ol>
+					  <li>Raven</li>
+					  <li>Silvis Laws</li>
+					  <li>Kakeru</li>
+					</ol>
+				</div>
+
+				<h3>1-4 自定义列表</h3>
+				<p>
+					自定义列表以 &lt;dl> 标签开始。每个自定义列表项以 &lt;dt> 开始。每个自定义列表项的定义以 &lt;dd> 开始。
+				</p>
+				<div class="chcon">
+					<dl>
+					<dt>Coffee</dt>
+					<dd>Black hot drink</dd>
+					<dt>Milk</dt>
+					<dd>White cold drink</dd>
+					</dl>
+				</div>
+
+				<h3>1-5 图片标签</h3>
+				<p>
+					在 HTML 中，图像由 &lt;img> 标签定义。<br>
+					&lt;img> 是空标签，意思是说，它只包含属性，并且没有闭合标签。
+					<br>
+					要在页面上显示图像，你需要使用源属性（src）。src 指 "source"。源属性的值是图像的 URL 地址。
+				</p>
+				<div class="chcon">
+					<img src="images/hikake_logo.jpg" alt="hinokakera" title="hinokakera">
+				</div>
+
+				<h3>1-6 超链接</h3>
+				<p>
+					用于从一个页面链接到另一个页面。
+					<br>
+					最重要的属性是 href 属性，它指定链接的目标。
+				</p>
+				<div class="chcon">
+					<a href="https://www.w3school.com.cn/tags/tag_a.asp" target="_blank">W3school</a>
+					<br>
+					&lt;a href="https://www.w3school.com.cn/tags/tag_a.asp">W3school&lt;/a>
+				</div>
+
+				<h3>1-7 布局标签（div）</h3>
+				<p>
+					<p><strong>定义</strong></p>
+					&lt;div> 可定义文档中的分区或节（division/section）。
+					<br>
+					&lt;div> 标签可以把文档分割为独立的、不同的部分。它可以用作严格的组织工具，并且不使用任何格式与其关联。
+					<br>
+					如果用 id 或 class 来标记 &lt;div>，那么该标签的作用会变得更加有效。
+					<br>
+					<p><strong>用法</strong></p>
+					&lt;div> 是一个块级元素。这意味着它的内容自动地开始一个新行。实际上，换行是 &lt;div> 固有的唯一格式表现。可以通过 &lt;div> 的 class 或 id 应用额外的样式。
+					<br>
+					不必为每一个 &lt;div> 都加上类或 id，虽然这样做也有一定的好处。
+					<br>
+					可以对同一个 &lt;div> 元素应用 class 或 id 属性，但是更常见的情况是只应用其中一种。这两者的主要差异是，class 用于元素组（类似的元素，或者可以理解为某一类元素），而 id 用于标识单独的唯一的元素。
+				</p>
+				<div class="chcon">
+					<div style="color:#FFA000">
+						This is a Assault Force
+					</div>
+					<div style="color:#00A0FF">
+						This is a Technical Force.
+					</div>
+				</div>
+
+				<h3>1-8 表单标签</h3>
+				<p>
+					<p><strong>定义</strong></p>
+					&lt;form> 标签用于为用户输入创建 HTML 表单。<br>
+
+					表单能够包含 input 元素，比如文本字段、复选框、单选框、提交按钮等等。<br>
+
+					表单还可以包含 menus、textarea、fieldset、legend 和 label 元素。<br>
+
+					表单用于向服务器传输数据。<br>
+
+					<p><strong>注释</strong></p>
+					form 元素是块级元素，其前后会产生折行。
+				</p>
+				<div class="chcon">
+					<p><strong>百度搜索</strong></p>
+					<form action="https://www.baidu.com/s" method="get" target="_blank">
+						<p><input type="text" name="wd" placeholder="输入要搜索的内容"> <input type="submit" value="search"></p>
+					</form>
+				</div>
+				<p>
+				<table bordercolor="#808080" cellspacing="0" cellpadding="0" border="1" class="ftable">
+					<tr class="fth">
+						<th>属性</th>
+						<th>值</th>
+						<th>描述</th>
+					</tr>
+					<tr>
+						<th>accept</th>
+						<td>MIME_type</td>
+						<td style="color: #E80000">HTML 5 中不支持。</td>
+					</tr>
+					<tr>
+						<th>accept-charset</th>
+						<td>charset_list</td>
+						<td>规定服务器可处理的表单数据字符集。</td>
+					</tr>
+					<tr>
+						<th>action</th>
+						<td>URL</td>
+						<td>规定当提交表单时向何处发送表单数据。</td>
+					</tr>
+					<tr>
+						<th>autocomplete</th>
+						<td>on <br> off</td>
+						<td>规定是否启用表单的自动完成功能。</td>
+					</tr>
+					<tr>
+						<th>enctype</th>
+						<td>见说明</td>
+						<td>规定在发送表单数据之前如何对其进行编码。</td>
+					</tr>
+					<tr>
+						<th>method</th>
+						<td>get <br> post</td>
+						<td>规定用于发送 form-data 的 HTTP 方法。</td>
+					</tr>
+					<tr>
+						<th>name</th>
+						<td>form_name</td>
+						<td>规定表单的名称。</td>
+					</tr>
+					<tr>
+						<th>novalidate</th>
+						<td>novalidate</td>
+						<td>如果使用该属性，则提交表单时不进行验证。</td>
+					</tr>
+					<tr>
+						<th>target</th>
+						<td>
+							_blank <br>
+							_self <br>
+							_parent <br>
+							_top <br>
+							framename
+						</td>
+						<td>规定在何处打开 action URL。</td>
+					</tr>
+				</table>
+				</p>
+				<p><strong>说明</strong></p>
+				<p>enctype 属性可能的值：</p>
+				<ul>
+					<li>application/x-www-form-urlencoded</li>
+					<li>multipart/form-data</li>
+					<li>text/plain</li>
+				</ul>
+
+			<div class="Chtitle"  id="c2">
+				<h2>Chapter 02 Css滤镜</h2>
+			</div>
+
+			<h3>2-1 灰度</h3>
+			<p>
+				
+				<p><strong>定义</strong></p>
+				取值0 - 1的数值之间，可设置百分比，不可为负数。
+				<p><strong>Css属性</strong></p>
+				-webkit-filter
+				<ul>
+					<li>grayscale( )</li>
+				</ul>
+			</p>
+			<div class="chcon">
+				<p>修改图片的颜色为黑白 (100% 灰度)</p>
+				<img src="images/top.jpeg" alt="" class="cpic1">
+			</div>
+
+			</li>
+
+			<h3>2-2 Hover选择器</h3>
+			<p>
+				<p><strong>定义和用法</strong></p>
+				:hover 选择器用于选择鼠标指针浮动在上面的元素。
+
+				提示：:hover 选择器可用于所有元素，不只是链接。
+
+				提示：:link 选择器设置指向未被访问页面的链接的样式，:visited 选择器用于设置指向已被访问的页面的链接，:active 选择器用于活动链接。
+
+				<p><strong>注释</strong></p>
+				在 CSS 定义中，:hover 必须位于 :link 和 :visited 之后（如果存在的话），这样样式才能生效
+			</p>
+			<div class="chcon">
+				<p>鼠标经过显示灰度效果</p>
+				<img src="images/top.jpeg" alt="" class="cpic2">
+			</div>
+
+			<h3>2-3 Transition</h3>
+			<p>
+				<p><strong>定义和用法</strong></p>
+				transition 属性是一个简写属性，用于设置四个过渡属性：
+				<ul>
+					<li>transition-property</li>
+					<li>transition-duration</li>
+					<li>transition-timing-function</li>
+					<li>transition-delay</li>
+				</ul>
+				<p><strong>注释</strong></p>
+				请始终设置 transition-duration 属性，否则时长为 0，就不会产生过渡效果。
+
+				<p><strong>语法</strong></p>
+				transition: property duration timing-function delay
+
+
+			</p>
+
+			<div class="chcon">
+				<p>鼠标经过逐渐显示灰度效果（3s）</p>
+				<img src="images/top.jpeg" alt="" class="cpic3">
+			</div>
+
+			<p>
+			<table bordercolor="#808080" cellspacing="0" cellpadding="0" border="1" class="ftable">
+				<tr class="fth">
+					<th>值</th>
+					<th>描述</th>
+				</tr>
+				<tr>
+					<th>transition-property</th>
+					<td>规定设置过渡效果的 CSS 属性的名称。</td>
+				</tr>
+				<tr>
+					<th>transition-duration</th>
+					<td>规定完成过渡效果需要多少秒或毫秒。</td>
+				</tr>
+				<tr>
+					<th>transition-timing-function</th>
+					<td>规定速度效果的速度曲线。</td>
+				</tr>
+				<tr>
+					<th>transition-delay</th>
+					<td>定义过渡效果何时开始。</td>
+				</tr>
+			</table>
+			</p>
+
+			<h3>2-4 亮度</h3>
+			<p>
+				<p><strong>定义</strong></p>
+
+				默认为1， 1-0 逐渐变暗，1以上逐渐变亮。 <br>
+
+				可以是百分比， 不能为负数。
+				<p><strong>Css属性</strong></p>
+				-webkit-filter
+				<ul>
+					<li>brightness( )</li>
+				</ul>
+			</p>
+
+			<div class="chcon">
+				<p>修改图片的亮度为50%——鼠标经过显示150%亮度</p>
+				<img src="images/top.jpeg" alt="" class="cpic4">
+			</div>
+
+			<h3>2-5 深褐色</h3>
+			<p>
+				<p><strong>定义</strong></p>
+				0 - 1 逐渐变为深褐色 支持百分比，不支持负数。
+				<p><strong>Css属性</strong></p>
+				-webkit-filter
+				<ul>
+					<li>sepia( )</li>
+				</ul>
+			</p>
+
+			<div class="chcon">
+				<p>修改图片的颜色为深褐色（100%）</p>
+				<img src="images/top.jpeg" alt="" class="cpic5">
+			</div>
+
+			<h3>2-6 模糊度</h3>
+			<p>
+				<p><strong>定义</strong></p>可以接受css长度单位，不接受百分比。
+				<p><strong>Css属性</strong></p>
+				-webkit-filter
+				<ul>
+					<li>blur( )</li>
+				</ul>
+			</p>
+
+			<div class="chcon">
+				<p>修改图片的模糊度偏移5px</p>
+				<img src="images/top.jpeg" alt="" class="cpic6">
+			</div>
+
+			<h3>2-7 对比度</h3>
+			<p>
+				<p><strong>定义</strong></p>
+				1-0 逐渐变成灰黑 1以上颜色逐渐变艳丽。 <br>
+
+				可以是百分比， 不能为负数。
+				<p><strong>Css属性</strong></p>
+				-webkit-filter
+				<ul>
+					<li>contrast( )</li>
+				</ul>
+			</p>
+
+			<div class="chcon">
+				<p>修改图片的对比度为50%——鼠标经过显示150%对比度</p>
+				<img src="images/top.jpeg" alt="" class="cpic7">
+			</div>
+
+			<h3>2-8 饱和度</h3>
+			<p>
+				<p><strong>定义</strong></p>1-0 至完全不饱和，1为正常， 1以上饱和度更高，更艳丽，支持百分比。
+				<p><strong>Css属性</strong></p>
+				-webkit-filter
+				<ul>
+					<li>saturate( )</li>
+				</ul>
+			</p>
+
+			<div class="chcon">
+				<p>修改图片的饱和度为50%——鼠标经过显示150%饱和度</p>
+				<img src="images/top.jpeg" alt="" class="cpic8">
+			</div>
+
+			<h3>2-9 反相输入</h3>
+			<p>
+				<p><strong>定义</strong></p>
+				反向输入图，定义转换比例。 <br>
+
+				默认0 0%和100%之间，则是效果的线性乘子。
+				<p><strong>Css属性</strong></p>
+				-webkit-filter
+				<ul>
+					<li>invert( )</li>
+				</ul>
+			</p>
+
+			<div class="chcon">
+				<p>修改图片的反向为100%——鼠标经过显示原图</p>
+				<img src="images/top.jpeg" alt="" class="cpic9">
+			</div>
+
+			<h3>2-10 色相旋转</h3>
+			<p>
+				<p><strong>定义</strong></p>
+				单位 deg 可为负值。
+				<p><strong>Css属性</strong></p>
+				-webkit-filter
+				<ul>
+					<li>hue-rotate( )</li>
+				</ul>
+			</p>
+
+			<div class="chcon">
+				<p>修改图片的色相旋转调整为360deg——鼠标经过显示原图</p>
+				<img src="images/top.jpeg" alt="" class="cpic10">
+			</div>
+
+
+			<h3>2-11 混合滤镜</h3>
+			<p>
+				可以将任意数量的函数一起控制渲染，其中有一个不符合规范将全部失效。
+			</p>
+
+			<div class="chcon">
+				<p>鼠标经过查看效果</p>
+				<img src="images/top.jpeg" alt="" class="cpic11">
+			</div>
+
+
+
+		</ul>
+		
+		<!-- <div style="height: 800px;"></div> -->
+	</x-con>
+</body>
+</html>
