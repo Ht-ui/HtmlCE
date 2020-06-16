@@ -27,7 +27,7 @@ x-con{
 	word-wrap: break-word;
 }
 .Chtitle{
-	display: inline-block;
+	line-height: 100px;
 }
 dl{
 	padding: 0;
